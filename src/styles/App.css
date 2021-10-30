@@ -1,0 +1,123 @@
+.card {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 20px 35px 0 35px;
+
+ max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    opacity: 60%;
+    background: slategrey;
+}
+
+.card-btns {
+    display: flex;
+    margin-top: 30px;
+}
+
+.title-card {
+    font-weight: bold;
+    font-size: large;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 1200px;
+}
+
+.list-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.list-bigCard {
+    margin: 20px;
+}
+
+.list-addCard {
+    margin: 20px;
+}
+
+.list-title {
+    display: flex;
+
+    font-weight: bold;
+    width: 1000px;
+    justify-content: center;
+
+
+}
+
+.title-body {
+    overflow: hidden;
+    max-height: 100px;
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: beige;
+    width: 300px;
+}
+
+
+.user-item {
+    display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.user-list {
+    display: flex;
+    height: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+#root {
+    display: flex;
+    width: 1400px;
+
+
+    background-color: beige;
+
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    flex-direction: column;
+
+}
